@@ -6,7 +6,7 @@ module.exports = defineConfig({
     viewportWidth: 1280,
     viewportHeight: 720,
     video: true,
-    screenshotOnRunFailure: true,
+    screenshotOnRunFailure: false,
     
     // Fixed timeout settings for slow loading pages
     defaultCommandTimeout: 30000,  // 30 seconds
